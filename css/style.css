@@ -52,3 +52,34 @@ nav ul
     color: #000;
     font-weight: bold;   
 }
+
+img
+{
+    clip-path: circle();
+    height: 200px;
+    width:200px; 
+}
+
+.wrapper
+{ 
+    color: #000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
