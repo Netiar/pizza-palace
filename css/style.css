@@ -174,6 +174,115 @@ input,textarea
     
 }
 
+footer
+{
+    background-color: gray;
+}
+.email-box
+{
+    height: 40px;
+    justify-content: center;
+    display: flex; /*its better to use inline-flex*/
+}
+
+.email-box i
+{
+    background: #2f3542;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.tbox,.btn
+{
+    border: none;
+    outline: none;
+}
+
+.tbox
+{
+    width: 0px;
+    transition: 0.6s;
+}
+
+.email-box:hover > .tbox,.tbox:focus
+{
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn2
+{
+    background: #2f3542;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
