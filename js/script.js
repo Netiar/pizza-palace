@@ -62,11 +62,16 @@ $(document).ready(function(){
      if(userDelivery !=""){
          alert("total bill will be ${deliveryTotal}")
      }else{
-     alert(" ${numberOfPizza} ${pizzaSize} pizza with ${pizzaCrust} crust and ${pizzaTopping} topping,your total bill will be ${grandtotal} ")
+     alert(" ${numberOfPizza} ${pizzaSize} pizza with ${pizzaCrust} crust and ${pizzaTopping} topping,your total bill will be ${grandtotal} ");
 
      }
 
-    })
-})
+     
 
+});
+
+$(document).ready(function(){ 
+    $(#total-btn).on("click", function(){
+    alert("totalPrice * numberOfPizza + 150") 
+    })
 })

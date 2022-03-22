@@ -115,6 +115,23 @@ select
     
 }
 
+.input-group3
+{
+    width: 15%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate -40% right;
+    height: 30px;
+    margin-top: 4vh;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+   
+}
+
 input,textarea
 {
     width: 70%;
@@ -177,7 +194,9 @@ input,textarea
 footer
 {
     background-color: gray;
+    
 }
+
 .email-box
 {
     height: 40px;
