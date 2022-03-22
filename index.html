@@ -38,21 +38,21 @@
             <img src="images/pizza.jpg">
            </div>    
            <select class="form-select">
-              <option>medium </option>
-              <option>large</option>
-              <option>mega</option>            
+              <option>regular...   @550ksh</option>
+              <option>medium ...   @800ksh</option>
+              <option>large ...    @1200ksh</option>            
             </select>
         </div> 
 
         <div>
-            <h2>pizza toppings</h2>
+            <h2>pizza crust</h2>
             <div class="img">
                 <img src="images/crust.jpg" >
             </div>
             <select class="form-select">
-              <option>thin-crust</option>
-              <option>thick-crust</option>
-              <option>custom-crust</option>            
+              <option>thin-crust...@100ksh</option>
+              <option>thick-crust...@150ksh</option>
+              <option>custom-crust...@200ksh</option>            
             </select>
         </div>
 
@@ -62,13 +62,22 @@
                 <img src="images/toppings.jpg" >
             </div>
             <select class="form-select">
-              <option>mushrooms</option>
-              <option>onions</option>
-              <option>extra-cheese</option>
-              <option>Pepperoni</option>           
+              <option>mushrooms...@80ksh</option>
+              <option>onions...@80ksh</option>
+              <option>tomato...@80ksh</option>
+              <option>chilli-pepper...@80ksh</option>           
             </select>
         </div>
-     </div>       
+     </div> 
+     <form>
+       <label class="label" for="number ">Choose number of pizza :</label>
+       <input type="number" class="form-control input" id="number" placeholder="number of pizzas..." min="1">
+       <label class="label" for="delivery ">Pick your delivery option:</label>
+       <input type="text" class="form-control input" id="delivery" placeholder="location for delivery">
+     
+     
+       <button type="submit" id="button" class="btn btnOrder btn-outline-light btn-md">Checkout</button>
+     </form>   
        
     </section>
 </body>
